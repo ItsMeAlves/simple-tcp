@@ -1,0 +1,72 @@
+.left-b {
+	border-left: 4px solid #222;
+}
+
+.right-b {
+	border-right: 4px solid #222;
+}
+
+.top-b {
+	border-top: 4px solid #222;
+}
+
+.bottom-b {
+	border-bottom: 4px solid #222;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Lora", serif;
+	text-align: center;
+}
+
+.variable {
+	position: absolute;
+}
+
+.a {
+	left: 32%;
+	top: 45%;
+}
+
+.b {
+	right: 32%;
+	top: 37%;
+}
+
+.c {
+	right: 42%;
+	top: 56%;
+}
+
+.d {
+	left: 49%;
+	top: 19%;
+}
+
+.over {
+	text-decoration: overline;
+}
+
+td {
+	margin: 0;
+	padding: 0.2em;
+	border: 2px dotted #ccc;
+}
+
+table {
+	width: 30%;
+	height: 30%;
+	margin-top: 10em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+thead td {
+	font-weight: bold;
+	background-color: #ddd;
+}
